@@ -7,13 +7,23 @@ class StringUtility:
     return self.string
 
   def vowels(self):
-    count = 0
+    vowels = "aeiouAEIOU"
     mystring = self.string
-    vowels = 'aeiouAEIOU'
-    for alphabet in mystring:
-      if alphabet in vowels:
-        count = count + 1
-    return count
+    num_vowels = 0
+    for char in mystring:
+      if char in vowels:
+        num_vowels = num_vowels + 1 
+    if num_vowels >= 5:
+      total = "many"
+    else:
+      total = str(num_vowels)
+    return total
+
+  
+      
+        
+      
+      
     
       
       
