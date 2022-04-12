@@ -19,7 +19,17 @@ class StringUtility:
       total = str(num_vowels)
     return total
 
-  
+  def bothEnds(self):
+    string = self.string
+    count = 0
+    for i in string:
+      count = count + 1
+    newstring = string[0:2] + string [count-2:count]
+    if count <= 2: 
+      finalstring = ""
+    else:
+      finalstring = newstring
+    return finalstring
       
         
       
