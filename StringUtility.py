@@ -48,7 +48,24 @@ class StringUtility:
     final_sum = sum(map(ord,string))
     return final_sum
       
-  
+  def cipher(self):
+    string = self.string
+    new_string = ''
+    for i in string:
+      if i.isalpha():
+        if i.isupper():
+          alphabet = (ord(i) - 65 + len(string)) % (26)
+          alphabet += 65
+        if i.islower():
+          alphabet = (ord(i) - 97 + len(string)) % 26
+          alphabet += 97
+        letter = chr(alphabet)
+      else:
+        letter = i
+      new_string += letter
+    return new_string
+        
+      
       
       
       
