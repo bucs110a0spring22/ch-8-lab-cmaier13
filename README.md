@@ -19,7 +19,7 @@ Grace days remaining: < # >/5
  < What parts of the project you were not able to complete >
 
 ## REFERENCES:
- < List any outside resources used >
+ [< List any outside resources used >](https://www.geeksforgeeks.org/python-create-a-string-made-of-the-first-and-last-two-characters-from-a-given-string/)
 
 ## MISCELLANEOUS COMMENTS:
  < Anything you would like the grader to know >

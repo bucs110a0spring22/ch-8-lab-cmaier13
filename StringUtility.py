@@ -30,6 +30,23 @@ class StringUtility:
     else:
       finalstring = newstring
     return finalstring
+
+  def fixStart(self):
+    string = self.string
+    count = 0
+    for i in string:
+      count = count + 1
+    star = string[0]
+    rest = string[1:]
+    rest = rest.replace(star,'*')
+    if count <= 0: 
+      finalstring = string
+    else:
+      finalstring = star+rest
+    return finalstring
+  
+      
+      
       
         
       
