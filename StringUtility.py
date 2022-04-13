@@ -19,6 +19,8 @@ class StringUtility:
       total = str(num_vowels)
     return total
 
+  '''takes a string and returns either the amount of vowels in the string or the word 'many' depending on the amount of vowels'''
+  
   def bothEnds(self):
     string = self.string
     count = 0
@@ -30,6 +32,8 @@ class StringUtility:
     else:
       finalstring = newstring
     return finalstring
+
+  '''takes a string and returns a new string made of the first 2 and last 2 characters of the original string. Returns an empty string if the string is less than 2 characters in length'''
 
   def fixStart(self):
     string = self.string
@@ -43,10 +47,14 @@ class StringUtility:
       finalstring = star+rest
     return finalstring
 
+  '''takes a string and returns a string where all occurances of the first letter are changed to a *. returns the original string if the string is less than or equal to 1 character in length'''
+
   def asciiSum(self):
     string = self.string
     final_sum = sum(map(ord,string))
     return final_sum
+
+  '''takes a string and returns the sum of the ascii values of all the characters in the string'''
       
   def cipher(self):
     string = self.string
@@ -64,6 +72,8 @@ class StringUtility:
         letter = i
       new_string += letter
     return new_string
+
+  '''takes a string and returns a new string that has each character incremented by the length of the original string'''
         
       
       
