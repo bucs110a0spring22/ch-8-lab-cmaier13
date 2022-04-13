@@ -33,17 +33,17 @@ class StringUtility:
 
   def fixStart(self):
     string = self.string
-    count = 0
-    for i in string:
-      count = count + 1
-    star = string[0]
-    rest = string[1:]
-    rest = rest.replace(star,'*')
-    if count <= 0: 
-      finalstring = string
+    length = len(string)
+    if length == 0:
+      finalstring= string 
     else:
+      star = string[0]
+      rest = string[1:]
+      rest = rest.replace(star,'*')
       finalstring = star+rest
     return finalstring
+
+    
   
       
       
