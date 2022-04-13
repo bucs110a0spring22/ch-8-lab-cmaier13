@@ -20,6 +20,8 @@ Grace days remaining: < # >/5
 
 ## REFERENCES:
  [< List any outside resources used >](https://www.geeksforgeeks.org/python-create-a-string-made-of-the-first-and-last-two-characters-from-a-given-string/)
+ https://stackoverflow.com/questions/12492137/python-sum-of-ascii-values-of-all-characters-in-a-string
+ 
 
 ## MISCELLANEOUS COMMENTS:
  < Anything you would like the grader to know >

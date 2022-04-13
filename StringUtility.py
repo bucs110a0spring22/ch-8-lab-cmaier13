@@ -43,7 +43,11 @@ class StringUtility:
       finalstring = star+rest
     return finalstring
 
-    
+  def asciiSum(self):
+    string = self.string
+    final_sum = sum(map(ord,string))
+    return final_sum
+      
   
       
       
